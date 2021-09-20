@@ -1,0 +1,77 @@
+body {
+    background-image: url("green.jpg");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    /*ketebalan font*/
+    font-weight: 100;
+    color: #638146;
+    font-family: comic sans ms;
+}
+
+h3 {
+    text-align: center;
+    /*ketebalan font*/
+    font-weight: 100;
+    color: #638146;
+    font-size: 15pt;
+    font-family: comic sans ms;
+}
+
+h2 {
+    text-align: center;
+    /*ketebalan font*/
+    font-weight: 100;
+    color: #638146;
+    font-size: 10pt;
+    font-family: comic sans ms;
+}
+
+.kotak_vigenere {
+    width: 350px;
+    background: white;
+    /*meletakkan form ke tengah*/
+    margin: 80px auto;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 100px 4px #d6d6d6;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 11pt;
+    font-family: comic sans ms;
+    color: #638146;
+}
+
+input {
+    font-size: 13pt;
+    font-family: comic sans ms;
+    color: #638146;
+}
+
+textarea {
+    font-size: 13pt;
+    font-family: comic sans ms;
+    color: #638146;
+}
+
+.form_vigenere {
+    /*membuat lebar form penuh*/
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.button {
+    background: #638146;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
